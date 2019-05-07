@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components'
-
 import { Colors } from '../styles/variables'
 
 const Spin = keyframes`

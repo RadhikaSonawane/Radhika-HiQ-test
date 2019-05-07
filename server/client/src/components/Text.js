@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const TextBox = ({ text }) => <TextContainer>{text}</TextContainer>
+const Text = ({ text }) => <TextContainer>{text}</TextContainer>
 
-export default TextBox
+export default Text
 
 const TextContainer = styled.pre`
   margin-top: 15px;

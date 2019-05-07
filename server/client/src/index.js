@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import registerServiceWorker from './registerServiceWorker'
 import App from './containers/App'
-
 import styledNormalize from 'styled-normalize'
 import { injectGlobal } from 'styled-components'
 import { Colors } from './styles/variables'

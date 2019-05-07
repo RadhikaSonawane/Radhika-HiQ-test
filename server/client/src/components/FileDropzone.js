@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Dropzone from 'react-dropzone'
 import styled from 'styled-components'
-
 import Loader from './Loader'
 
 class FileDropzone extends Component {

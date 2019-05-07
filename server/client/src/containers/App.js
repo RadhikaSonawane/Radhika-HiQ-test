@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
-
 import { Colors } from '../styles/variables'
-
-import FileDropZone from '../components/FileDropzone'
-import TextBox from '../components/TextBox'
+import FileDropzone from '../components/FileDropzone'
+import Text from '../components/Text'
 
 class App extends Component {
   state = { proccessedText: '', isLoading: false }
@@ -29,12 +27,12 @@ class App extends Component {
       <AppContainer>
         <Logo className="text-center">HiQ Code Test</Logo>
         <InnerAppContainer>
-          <FileDropZone
+          <FileDropzone
             uploadFile={this.uploadFile}
             isLoading={this.state.isLoading}
           />
           {!!this.state.proccessedText && (
-            <TextBox text={this.state.proccessedText} />
+            <Text text={this.state.proccessedText} />
           )}
         </InnerAppContainer>
       </AppContainer>
